@@ -1,0 +1,19 @@
+@(text: String)(implicit messages: Messages)
+@main("Ipswm") {
+    <form action="#" method="post">
+        <label>
+            <span>@Messages("size")</span>
+            <input type="number" name="size" min=0 max=10000 value=10 />
+        </label>
+        <label>
+            <span>@Messages("words")</span>
+            <input type="radio" name="sizetype" value="@Messages("words")" checked="checked" />
+        </label>
+        <label>
+            <span>@Messages("paras")</span>
+            <input type="radio" name="sizetype" value="@Messages("paras")" />
+        </label>
+        <input type="submit" value="@Messages("generate")" />
+        <textarea rows=10 cols=40>@text</textarea>
+    </form>
+}
