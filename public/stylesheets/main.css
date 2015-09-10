@@ -1,0 +1,6 @@
+body {font-family: Verdana, Helvetica, sans-serif; font-size: 16px;}
+form {width: 100%; max-width: 1200px; margin: 0 auto;}
+fieldset {float: left; box-sizing: border-box; font-size: 0.75em; width: 25%; border: 1px solid #c0c0c0; padding: 3%;}
+label {display: inline-block; width: 100%;}
+label span {display: inline-block; width: 50%;}
+textarea {width: 72%; height: 100%;}
